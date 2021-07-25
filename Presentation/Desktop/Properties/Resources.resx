@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="delete3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Trash_Can_30px_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Trash_Can_30px_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Depot_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Depot_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atencao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atencao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="column" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\column.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Card Payment_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card Payment_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printarea4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printarea7.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="save_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_addcircled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_addcircled.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bo_validation2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_validation7.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_User_Location_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_User_Location_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundo_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo_login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Initiate Money Transfer_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Initiate Money Transfer_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Management_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Management_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Check Book_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check Book_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Hangar_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hangar_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agreement_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agreement_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security_security" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_security.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Product Documents_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product Documents_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money Bag_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money Bag_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_contract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_contract.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Coins_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cash in Hand_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cash in Hand_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="stretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stretch.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Networking Manager_502px (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_502px (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Networking Manager_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_User_Groups_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_User_Groups_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conference_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Conference_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editcomment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editcomment.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Price Tag USD_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Price Tag USD_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Customer_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagemSistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImagemSistema.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Monitor_20px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Monitor_20px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transaction_27px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transaction_27px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sync_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sync_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de Tela (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de Tela (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_checkcircled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_checkcircled.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Transaction_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transaction_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Real Estate_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Real Estate_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_forbid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_forbid.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Renew_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Renew_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backward3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward8.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Coins_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups_48px3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit Property_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit Property_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Document_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Card Payment_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card Payment_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Trash_Can_30px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Trash_Can_30px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Search_16px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Search_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Comments_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Comments_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_dollarcircled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_dollarcircled4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Profile_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Profile_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clock_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Documentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Documentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Administrative Tools_50px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administrative Tools_50px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Leaf_500px_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Leaf_500px_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_List_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_List_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Calendar_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Calendar_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desconto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desconto.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Customer_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printarea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printarea.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Close_Window_48px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Close_Window_48px_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Museum_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Museum_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open Box_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open Box_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hospital Bed_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hospital Bed_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectpivottable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selectpivottable.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Checked User Male_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checked User Male_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as3.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Safe_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Safe_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Female_Meeting_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Female_Meeting_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Networking Manager_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refund_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refund_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folha_Logo_Sistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folha_Logo_Sistema.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Down Arrow_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Down Arrow_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buying_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buying_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="productquickcomparisons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\productquickcomparisons.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Workers Male_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Workers Male_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Name_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Name_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newproduct2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newproduct2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Captura de Tela (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de Tela (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_department" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_department.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Refund 2_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refund 2_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bo_lead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_lead.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="editcomment1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editcomment1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="backward2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward7.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Buying_48cccpx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buying_48cccpx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Expand_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Expand_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Training_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Training_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clock_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newcustomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newcustomer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Questao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearheaderandfooter4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter8.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="seo-and-web-outline-18-05-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seo-and-web-outline-18-05-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Move Stock_5px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Move Stock_5px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add Property_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add Property_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Smart_Card_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Smart_Card_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearheaderandfooter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Ratings_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ratings_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editcomment4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editcomment11.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Search_16px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Search_16px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print2_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print2_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sync_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sync_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Member_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Member_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fazer backup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fazer backup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Training_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Training_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diploma_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diploma_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_trash.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Day Off_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Day Off_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Money_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Money_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Addd_27px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Addd_27px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inspection_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inspection_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottom10percent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bottom10percent1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="newproduct3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newproduct4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Clock2_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock2_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearheaderandfooter3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter7.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="actions_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_zoom.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Ascending Sorting_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ascending Sorting_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Students_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Students_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_User_Shield_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_User_Shield_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coins_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trolley_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trolley_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refund_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refund_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_dollarcircled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_dollarcircled2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Cancel_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_File_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_File_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pills_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pills_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Leaf_500px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Leaf_500px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Decrease_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Decrease_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Smart_Card_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Smart_Card_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Networking Manager_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open Box_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open Box_48px3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearheaderandfooter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="backward1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Networking Manager_502px (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_502px (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clear Shopping Cart_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clear Shopping Cart_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Day Off_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Day Off_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="save as6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Handshake_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Handshake_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Check Book_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check Book_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_lead1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_lead1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Calendar Plus_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar Plus_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Classroom_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Classroom_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agreement_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agreement_48px4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fazer backup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fazer backup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editcomment2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editcomment9.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="glyph_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyph_message.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="New Spreadsheet_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Spreadsheet_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Test Passed_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test Passed_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="printarea2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printarea2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Coins_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Coins_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time Span_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Time Span_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Definicoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Definicoes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete5.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Appointment Reminders_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Appointment Reminders_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buynow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buynow.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Check Book_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check Book_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meal_487px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Meal_487px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Save_48px_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Save_48px_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Engineer_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Engineer_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Combo Chart_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combo Chart_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Administrative Tools_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administrative Tools_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Report Card_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report Card_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ratings_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ratings_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newproduct1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newproduct1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Nurse Male_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nurse Male_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Addd_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Addd_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Definicoes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Definicoes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_attention" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_attention.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="print3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print3.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Settings_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pie Chart_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pie Chart_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bo_fileattachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_fileattachment.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Classroom_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Classroom_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buy_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buy_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo-oscuro-abstracto-desenfocado_1034-239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-oscuro-abstracto-desenfocado_1034-239.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as10.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Supplier_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Supplier_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1135838951-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1135838951-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printarea1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printarea1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Password_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Password_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Request_Money_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Request_Money_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viewsettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viewsettings.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Permanent Job_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Permanent Job_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Networking Manager_502px (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Networking Manager_502px (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_User_Location_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_User_Location_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chartseries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chartseries1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Initiate Money Transfer_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Initiate Money Transfer_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Male User_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Male User_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chartdatalabels_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chartdatalabels_center.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Clear Shopping Cart_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clear Shopping Cart_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_fileattachment1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_fileattachment1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Buy_483px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buy_483px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_audit_changehistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_audit_changehistory.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Ratings_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ratings_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as5.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="printarea3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printarea6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Home_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home_30px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups_48px3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups_48px4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paper Money_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paper Money_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create Document_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Create Document_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genealogy_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genealogy_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_validation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_validation6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Light_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Light_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="columnheaders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\columnheaders.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Product_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buying_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buying_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add File_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add File_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agreement_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agreement_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="School Director_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\School Director_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_validation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_validation.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_File_Preview_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_File_Preview_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valet_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Valet_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Password_16px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Password_16px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_fileattachment2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_fileattachment2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Clock2_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock2_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_order_item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_order_item.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Women_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Women_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transaction_27px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transaction_27px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Initiate Money Transfer_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Initiate Money Transfer_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Print_30px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Print_30px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Students_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Students_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Data Pending_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Data Pending_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add User Group Man Man_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add User Group Man Man_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Coins_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refund_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refund_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sucesso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sucesso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bank Cards_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bank Cards_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Product Documents_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product Documents_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add List_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add List_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beach Umbrella_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beach Umbrella_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_product.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="System Task_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\System Task_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movedown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movedown.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="icons8_Google_Plus_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Google_Plus_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open Box_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open Box_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_businessman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_businessman.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="clearheaderandfooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Choir_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Choir_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newproduct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newproduct.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Paper Money_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paper Money_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="financial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\financial.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Graduation Cap_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graduation Cap_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageload1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageload1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Administrative Tools_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administrative Tools_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\changeview.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Trolley_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trolley_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Search_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Search_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money Transfer_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money Transfer_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Product_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_cash.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Page Overview 3_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page Overview 3_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh_27px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh_27px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limpar sinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limpar sinza.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

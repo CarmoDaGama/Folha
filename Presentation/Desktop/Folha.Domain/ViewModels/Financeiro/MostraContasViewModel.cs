@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Folha.Domain.ViewModels.Financeiro
+{
+    public class MostraContasViewModel
+    {
+        public int codigo { get; set; }
+        public string Numero { get; set; }
+        public string Iban { get; set; }
+        public string Natureza { get; set; }
+        public string Sequencia { get; set; }
+        public string Swift { get; set; }
+        public int CodBanco { get; set; }
+        public string BancoDescricao { get; set; }
+        //public string Descricao { get; set; }
+    }
+}

@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;backstageViewClientControl1.Name" xml:space="preserve">
+    <value>backstageViewClientControl1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewClientControl, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.Parent" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="backstageViewControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 198</value>
+  </data>
+  <data name="backstageViewControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 150</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="backstageViewControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Name" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewControl, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bbiSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bbiSaveAndClose.Caption" xml:space="preserve">
+    <value>Save And Close</value>
+  </data>
+  <data name="bbiSaveAndNew.Caption" xml:space="preserve">
+    <value>Save And New</value>
+  </data>
+  <data name="bbiReset.Caption" xml:space="preserve">
+    <value>Reset Changes</value>
+  </data>
+  <data name="bbiDelete.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barEditItem1.Caption" xml:space="preserve">
+    <value>Armazem:</value>
+  </data>
+  <data name="repositoryItemTextEdit1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AppearanceDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AppearanceFocused.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AppearanceReadOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="barEditItem1.EditWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="repositoryItemTextEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtpesquisar.EditWidth" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="txtpreco.Caption" xml:space="preserve">
+    <value>Preço:</value>
+  </data>
+  <data name="repositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v19.1" name="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v19.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtpreco.EditWidth" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="cboFamilia.Caption" xml:space="preserve">
+    <value>Familia:</value>
+  </data>
+  <data name="repositoryItemComboBox2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemComboBox2.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v19.1">
+    <value>Combo</value>
+  </data>
+  <data name="cboFamilia.EditWidth" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="cboArmazens.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="repositoryItemComboBox3.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemComboBox3.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v19.1">
+    <value>Combo</value>
+  </data>
+  <data name="cboArmazens.EditWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btnSelect.Caption" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <assembly alias="DevExpress.Data.v19.1" name="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="btnSelect.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjEsIFZlcnNpb249MTkuMS41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAL8BAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iU2VsZWN0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAz
+        MiAzMiI+DQogIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+CgkuQmxhY2t7ZmlsbDojNzI3MjcyO30KPC9z
+        dHlsZT4NCiAgPHBhdGggZD0iTTE4LjIsMjBIMjZMMTAsNHYyMmw1LjMtNS4zbDIuNyw2LjdjMC4yLDAu
+        NSwwLjgsMC44LDEuMywwLjVsMC45LTAuNGMwLjUtMC4yLDAuOC0wLjgsMC41LTEuM0wxOC4yLDIweiIg
+        Y2xhc3M9IkJsYWNrIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjEsIFZlcnNpb249MTkuMS41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAPoBAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iQ2xlYXJIZWFkZXJBbmRGb290ZXIiIHN0eWxlPSJlbmFibGUtYmFja2dy
+        b3VuZDpuZXcgMCAwIDMyIDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5SZWR7ZmlsbDoj
+        RDExQzFDO30KPC9zdHlsZT4NCiAgPHBhdGggZD0iTTI3LDRINUM0LjUsNCw0LDQuNSw0LDV2MjJjMCww
+        LjUsMC41LDEsMSwxaDIyYzAuNSwwLDEtMC41LDEtMVY1QzI4LDQuNSwyNy41LDQsMjcsNHogTTIyLDIw
+        bC0yLDJsLTQtNGwtNCw0ICBsLTItMmw0LTRsLTQtNGwyLTJsNCw0bDQtNGwyLDJsLTQsNEwyMiwyMHoi
+        IGNsYXNzPSJSZWQiIC8+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="mainRibbonControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mainRibbonPage.Text" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="mainRibbonControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 61</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonControl.Name" xml:space="preserve">
+    <value>mainRibbonControl</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="backstageViewClientControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 62</value>
+  </data>
+  <data name="backstageViewClientControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 88</value>
+  </data>
+  <data name="backstageViewClientControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.Name" xml:space="preserve">
+    <value>backstageViewClientControl1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewClientControl, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.Parent" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="backstageViewTabItem1.Caption" xml:space="preserve">
+    <value>backstageViewTabItem1</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 40</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 14</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Quantidade </value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradeArtigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 78</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn3.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridColumn3.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="gridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>403</value>
+  </data>
+  <data name="gridColumn11.Caption" xml:space="preserve">
+    <value>Custo</value>
+  </data>
+  <data name="gridColumn11.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="gridColumn4.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn4.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridColumn4.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="gridColumn5.Caption" xml:space="preserve">
+    <value>Qtdade</value>
+  </data>
+  <data name="gridColumn5.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn5.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gridColumn5.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="gridColumn6.Caption" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="gridColumn6.Width" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="gridColumn10.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridColumn7.Caption" xml:space="preserve">
+    <value>CodProduto</value>
+  </data>
+  <data name="GradeArtigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>725, 339</value>
+  </data>
+  <data name="GradeArtigo.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;GradeArtigo.Name" xml:space="preserve">
+    <value>GradeArtigo</value>
+  </data>
+  <data name="&gt;&gt;GradeArtigo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GradeArtigo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GradeArtigo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtQuantdade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="txtQuantdade.EditValue" xml:space="preserve">
+    <value>1,00</value>
+  </data>
+  <data name="txtQuantdade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 37</value>
+  </data>
+  <data name="txtQuantdade.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="txtQuantdade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txtQuantdade.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;txtQuantdade.Name" xml:space="preserve">
+    <value>txtQuantdade</value>
+  </data>
+  <data name="&gt;&gt;txtQuantdade.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtQuantdade.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtQuantdade.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gridColumn19.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn19.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn19.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn19.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn20.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn20.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn20.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn20.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn21.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn21.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn21.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn21.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn22.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn22.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn22.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn22.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn23.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn23.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn23.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn23.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn24.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn24.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn24.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn24.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn25.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn25.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn25.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn25.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn26.Caption" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="gridColumn26.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn26.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn26.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="gridColumn27.Caption" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="gridColumn27.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn27.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridColumn27.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="gridColumn28.Caption" xml:space="preserve">
+    <value>Qtdade</value>
+  </data>
+  <data name="gridColumn28.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn28.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gridColumn28.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="gridColumn8.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn8.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 425</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 14</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Duplo click para Adicionar</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>749, 451</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Busca de Artigos</value>
+  </data>
+  <data name="&gt;&gt;backstageViewTabItem1.Name" xml:space="preserve">
+    <value>backstageViewTabItem1</value>
+  </data>
+  <data name="&gt;&gt;backstageViewTabItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewTabItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSave.Name" xml:space="preserve">
+    <value>bbiSave</value>
+  </data>
+  <data name="&gt;&gt;bbiSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveAndClose.Name" xml:space="preserve">
+    <value>bbiSaveAndClose</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveAndClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveAndNew.Name" xml:space="preserve">
+    <value>bbiSaveAndNew</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveAndNew.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiReset.Name" xml:space="preserve">
+    <value>bbiReset</value>
+  </data>
+  <data name="&gt;&gt;bbiReset.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDelete.Name" xml:space="preserve">
+    <value>bbiDelete</value>
+  </data>
+  <data name="&gt;&gt;bbiDelete.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiClose.Name" xml:space="preserve">
+    <value>bbiClose</value>
+  </data>
+  <data name="&gt;&gt;bbiClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Name" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtpesquisar.Name" xml:space="preserve">
+    <value>txtpesquisar</value>
+  </data>
+  <data name="&gt;&gt;txtpesquisar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtpreco.Name" xml:space="preserve">
+    <value>txtpreco</value>
+  </data>
+  <data name="&gt;&gt;txtpreco.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Name" xml:space="preserve">
+    <value>repositoryItemComboBox1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cboFamilia.Name" xml:space="preserve">
+    <value>cboFamilia</value>
+  </data>
+  <data name="&gt;&gt;cboFamilia.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox2.Name" xml:space="preserve">
+    <value>repositoryItemComboBox2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cboArmazens.Name" xml:space="preserve">
+    <value>cboArmazens</value>
+  </data>
+  <data name="&gt;&gt;cboArmazens.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox3.Name" xml:space="preserve">
+    <value>repositoryItemComboBox3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Name" xml:space="preserve">
+    <value>btnSelect</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonPage.Name" xml:space="preserve">
+    <value>mainRibbonPage</value>
+  </data>
+  <data name="&gt;&gt;mainRibbonPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridArtigo.Name" xml:space="preserve">
+    <value>gridArtigo</value>
+  </data>
+  <data name="&gt;&gt;gridArtigo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Name" xml:space="preserve">
+    <value>gridColumn3</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Name" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Name" xml:space="preserve">
+    <value>gridColumn2</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn11.Name" xml:space="preserve">
+    <value>gridColumn11</value>
+  </data>
+  <data name="&gt;&gt;gridColumn11.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Name" xml:space="preserve">
+    <value>gridColumn4</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn5.Name" xml:space="preserve">
+    <value>gridColumn5</value>
+  </data>
+  <data name="&gt;&gt;gridColumn5.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn6.Name" xml:space="preserve">
+    <value>gridColumn6</value>
+  </data>
+  <data name="&gt;&gt;gridColumn6.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn10.Name" xml:space="preserve">
+    <value>gridColumn10</value>
+  </data>
+  <data name="&gt;&gt;gridColumn10.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Name" xml:space="preserve">
+    <value>gridColumn7</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn19.Name" xml:space="preserve">
+    <value>gridColumn19</value>
+  </data>
+  <data name="&gt;&gt;gridColumn19.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn20.Name" xml:space="preserve">
+    <value>gridColumn20</value>
+  </data>
+  <data name="&gt;&gt;gridColumn20.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn21.Name" xml:space="preserve">
+    <value>gridColumn21</value>
+  </data>
+  <data name="&gt;&gt;gridColumn21.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn22.Name" xml:space="preserve">
+    <value>gridColumn22</value>
+  </data>
+  <data name="&gt;&gt;gridColumn22.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn23.Name" xml:space="preserve">
+    <value>gridColumn23</value>
+  </data>
+  <data name="&gt;&gt;gridColumn23.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn24.Name" xml:space="preserve">
+    <value>gridColumn24</value>
+  </data>
+  <data name="&gt;&gt;gridColumn24.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn25.Name" xml:space="preserve">
+    <value>gridColumn25</value>
+  </data>
+  <data name="&gt;&gt;gridColumn25.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn26.Name" xml:space="preserve">
+    <value>gridColumn26</value>
+  </data>
+  <data name="&gt;&gt;gridColumn26.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn27.Name" xml:space="preserve">
+    <value>gridColumn27</value>
+  </data>
+  <data name="&gt;&gt;gridColumn27.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn28.Name" xml:space="preserve">
+    <value>gridColumn28</value>
+  </data>
+  <data name="&gt;&gt;gridColumn28.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Name" xml:space="preserve">
+    <value>gridColumn8</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmBuscaArtigos</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>
